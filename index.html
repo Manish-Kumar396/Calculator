@@ -5,14 +5,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Modern Calculator</title>
     <link rel="stylesheet" href="assets/style.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@40,300,0,0"
+    />
   </head>
   <body>
     <div class="container">
-      <input type="text" id="calc-screen" />
+      <input type="text" id="calc-screen" readonly />
       <button onclick="clearAll()">C</button>
       <button onclick="printer('(')">(</button>
       <button onclick="printer(')')">)</button>
-      <button onclick="clearLast()">X</button>
+      <button onclick="clearLast()">
+        <span class="material-symbols-outlined"> keyboard_backspace </span>
+      </button>
       <button onclick="printer('7')">7</button>
       <button onclick="printer('8')">8</button>
       <button onclick="printer('9')">9</button>

@@ -4,6 +4,6 @@ Creating a calculator using HTML CSS and JavaScript.
 
 ## Preview
 
-### COMING SOON
+![Project Preview](preview.png)
 
-Author Manish
+Author: Manish
