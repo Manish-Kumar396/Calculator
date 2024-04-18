@@ -3,7 +3,34 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Modern Calculator</title>
+    <link rel="stylesheet" href="assets/style.css" />
   </head>
-  <body></body>
+  <body>
+    <div class="container">
+      <input type="text" id="calc-screen" />
+      <button onclick="clearAll()">C</button>
+      <button onclick="printer('(')">(</button>
+      <button onclick="printer(')')">)</button>
+      <button onclick="clearLast()">X</button>
+      <button onclick="printer('7')">7</button>
+      <button onclick="printer('8')">8</button>
+      <button onclick="printer('9')">9</button>
+      <button onclick="printer('/')">/</button>
+      <button onclick="printer('4')">4</button>
+      <button onclick="printer('5')">5</button>
+      <button onclick="printer('6')">6</button>
+      <button onclick="printer('*')">*</button>
+      <button onclick="printer('1')">1</button>
+      <button onclick="printer('2')">2</button>
+      <button onclick="printer('3')">3</button>
+      <button onclick="printer('-')">-</button>
+      <button onclick="printer('0')">0</button>
+      <button onclick="printer('.')">.</button>
+      <button onclick="evaluator()">=</button>
+      <button onclick="printer('+')">+</button>
+    </div>
+
+    <script src="assets/main.js"></script>
+  </body>
 </html>
